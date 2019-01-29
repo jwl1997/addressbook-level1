@@ -268,6 +268,19 @@
 || 
 || 2 persons found!
 || ===================================================
+|| Enter command: || [Command entered:edit Dickson e/dickson@nus.edu.sg p/444444]
+|| The person does not exist in addressbook
+|| ===================================================
+|| Enter command: || [Command entered:edit Dickson Ee e/dickson@nus.edu.sg]
+|| Invalid command format: edit 
+|| edit: Edit a person's name or email in the address book.
+|| 	Parameters: NAME p/PHONE_NUMBER e/EMAIL
+|| 	Example: edit John Doe p/98765432 e/johnd@gmail.com
+|| 
+|| ===================================================
+|| Enter command: || [Command entered:edit Dickson Ee e/dickson1997@nus.edu.sg p/44444455]
+|| New person edited: Dickson Ee, Phone: 44444455, Email: dickson1997@nus.edu.sg
+|| ===================================================
 || Enter command: || [Command entered:  clear]
 || Address book has been cleared!
 || ===================================================
